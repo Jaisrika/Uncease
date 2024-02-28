@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DRIVERS</title>
+    <style>
+   
+      #video-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+      }
+   
+      #background-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        display: flex;
+      }
+      
+      
+      #content {
+        position: relative;
+        z-index: 1;
+      }
+      .dri{
+        margin-left: 18%;
+        margin-top: 14.5%;
+        font-size: 90px;
+      }
+      .bu{
+        padding: 25px 42px;
+        font-size: 52px;
+        background-color:rgb(241, 224, 231);
+        margin-left: 8%;
+        color: rgb(245, 246, 244);
+        border-radius: 0;
+      }
+      a{
+    color: rgb(58, 143, 217);
+    text-decoration: none;
+}
+    </style>
+  </head>
+  <body>
+  
+    <div id="video-container">
+      <video autoplay muted loop id="background-video">
+        <source src="ha.mg4.mp4" type="video/mp4">
+      </video>
+    </div>
+ 
+    <div class="dri">
+      <h1>DRIVERS</h1>
+      <p>Leave sooner, drive slower, live longer.....</p>
+      <button class="bu"><a href="driver.html">Check</a></button>
+    </div>
+  </body>
+</html>
